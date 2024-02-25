@@ -1,0 +1,17 @@
+curl -u 'your_username' https://api.github.com/user/repos -d '{"name":"finalCapstone"}'
+
+cd path/to/lastCapstoneProject
+
+git init
+
+git remote add origin https://github.com/your_username/finalCapstone.git
+
+git push -u origin master
+
+touch README.md
+
+git add README.md
+
+git commit -m "Add detailed README
+
+git push origin master
